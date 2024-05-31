@@ -31,7 +31,7 @@ const CharactersPage = () => {
 
   return (
     <Container>
-      <h1>Vercel again Characters List</h1>
+      <h1>Testing VERCEL Characters List</h1>
       <Row>
         {data.characters.results.map(({ id, name, image }: CharacterProps) => (
             <Col>
