@@ -25,7 +25,6 @@ jobs:
           echo "Contents of node_modules: $(ls -l node_modules)"
 
 deploy:
-  needs: test
   runs-on: ubuntu-latest
   steps:
     - name: Checkout code
